@@ -1,0 +1,58 @@
+/* header.component.css */
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background: linear-gradient(90deg, #000000, #3b3b3b); /* Gradiente de fondo */
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    border-radius: 0px; /* Bordes redondeados */
+}
+.flot{
+    position: fixed; 
+    width: 100%; 
+    z-index: 1000;
+}
+
+/* Estilo para la marca (brand) */
+.navbar-brand {
+    font-size: 2.5rem; /* Tamaño del texto aumentado */
+    color: #fff; /* Color del texto */
+    font-weight: lighter; /* Texto en negrita */
+    margin: auto;
+}
+
+/* Estilo para los enlaces de la barra de navegación */
+.navbar-nav .nav-link {
+    color: #fff; /* Color del texto */
+    padding: 0.7rem 1.5rem; /* Espaciado interno aumentado */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+/* Estilo para el enlace activo */
+.navbar-nav .nav-item.active .nav-link {
+    background-color: #ffffff; /* Fondo del enlace activo con un color más oscuro */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo para el botón de búsqueda */
+.form-control {
+    border: 2px solid #ffffff; /* Borde del campo de búsqueda */
+    border-radius: 30px; /* Bordes redondeados aumentados */
+    background-color: #000000; /* Fondo transparente */
+    color: #ffffff; /* Color del texto */
+}
+
+/* Estilo para el botón de búsqueda */
+.btn-outline-light {
+    border-color: #ffffff; /* Color del borde */
+    border-radius: 30px; /* Bordes redondeados aumentados */
+    margin-left: 10px; /* Espaciado a la izquierda */
+}
+
+/* Estilo para el botón de búsqueda al pasar el mouse */
+.btn-outline-light:hover {
+    background-color: #ffffff; /* Fondo al pasar el mouse */
+    color: #000000; /* Color del texto al pasar el mouse */
+}
+
+
+

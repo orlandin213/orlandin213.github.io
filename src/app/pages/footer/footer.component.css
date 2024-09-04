@@ -1,0 +1,77 @@
+/* footer.component.css */
+
+/* Estilo general para el footer */
+footer {
+    background: linear-gradient(90deg, #000000, #3b3b3b);  /* Color de fondo */
+      color: #fff; /* Color del texto */
+      padding: 30px 0; /* Espaciado interno */
+  }
+  
+  /* Estilo para las columnas del footer */
+  .col-lg-4 {
+      text-align: left; /* Alineación del texto a la izquierda */
+  }
+  
+  /* Estilo para los títulos del footer */
+  h3 {
+      color: #b1be3d; /* Color del título */
+      font-size: 1.5rem; /* Tamaño del título */
+      margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  /* Estilo para los enlaces del footer */
+  .list-unstyled a {
+      color: #fff; /* Color del texto del enlace */
+      text-decoration: none; /* Sin subrayado */
+      font-size: 1rem; /* Tamaño del texto del enlace */
+      transition: color 0.3s ease; /* Transición de color suave */
+  }
+  
+  /* Estilo para los enlaces del footer al pasar el mouse */
+  .list-unstyled a:hover {
+      color: #c8ff00; /* Color del texto al pasar el mouse */
+  }
+  
+  /* Estilo para las redes sociales del footer */
+  .list-inline-item {
+      font-size: 1.5rem; /* Tamaño de iconos */
+      margin-right: 15px; /* Espaciado entre iconos */
+  }
+  
+  /* Estilo para el contenido del footer en dispositivos móviles */
+  @media (max-width: 767px) {
+      .col-lg-4 {
+          margin-bottom: 30px; /* Aumenta el espaciado inferior entre columnas en dispositivos móviles */
+      }
+  }
+  
+  
+  
+  
+  /* CSS mejorado */
+  
+  .social-icons {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .social-icons li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+    
+    .social-icons a {
+      text-decoration: none;
+      color: #ffffff; /* Color inicial del ícono */
+      transition: color 0.3s ease-in-out;
+    }
+    
+    .social-icons a:hover {
+      color: #c8ff00; /* Color del ícono al pasar el mouse */
+    }
+    
+    .social-icons i {
+      font-size: 24px; /* Tamaño del ícono */
+    }
+    

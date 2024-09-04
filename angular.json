@@ -97,7 +97,9 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/logoOficial.jpg",
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -107,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "2493b3f6-8b20-460a-a745-94c0ae7212a1"
   }
 }
