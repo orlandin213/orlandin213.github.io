@@ -1,0 +1,142 @@
+/* header.component.css */
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background: linear-gradient(90deg, #000000, #3b3b3b); /* Gradiente de fondo */
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    border-radius: 0px; /* Bordes redondeados */
+}
+.flot{
+    position: fixed; 
+    width: 100%; 
+    z-index: 1000;
+}
+
+/* Estilo para la marca (brand) */
+.navbar-brand {
+    font-size: 2.5rem; /* Tamaño del texto aumentado */
+    color: #fff; /* Color del texto */
+    font-weight: lighter; /* Texto en negrita */
+    margin: auto;
+}
+
+/* Estilo para los enlaces de la barra de navegación */
+.navbar-nav .nav-link {
+    color: #fff; /* Color del texto */
+    padding: 0.7rem 1.5rem; /* Espaciado interno aumentado */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+/* Estilo para el enlace activo */
+.navbar-nav .nav-item.active .nav-link {
+    background-color: #ffffff; /* Fondo del enlace activo con un color más oscuro */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo para el botón de búsqueda */
+.form-control {
+    border: 2px solid #ffffff; /* Borde del campo de búsqueda */
+    border-radius: 30px; /* Bordes redondeados aumentados */
+    background-color: #000000; /* Fondo transparente */
+    color: #ffffff; /* Color del texto */
+}
+
+/* Estilo para el botón de búsqueda */
+.btn-outline-light {
+    border-color: #ffffff; /* Color del borde */
+    border-radius: 30px; /* Bordes redondeados aumentados */
+    margin-left: 10px; /* Espaciado a la izquierda */
+}
+
+/* Estilo para el botón de búsqueda al pasar el mouse */
+.btn-outline-light:hover {
+    background-color: #ffffff; /* Fondo al pasar el mouse */
+    color: #000000; /* Color del texto al pasar el mouse */
+}
+
+
+
+
+/* footer.component.css */
+
+/* Estilo general para el footer */
+footer {
+    background: linear-gradient(90deg, #000000, #3b3b3b);  /* Color de fondo */
+      color: #fff; /* Color del texto */
+      padding: 30px 0; /* Espaciado interno */
+  }
+  
+  /* Estilo para las columnas del footer */
+  .col-lg-4 {
+      text-align: left; /* Alineación del texto a la izquierda */
+  }
+  
+  /* Estilo para los títulos del footer */
+  h3 {
+      color: #b1be3d; /* Color del título */
+      font-size: 1.5rem; /* Tamaño del título */
+      margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  /* Estilo para los enlaces del footer */
+  .list-unstyled a {
+      color: #fff; /* Color del texto del enlace */
+      text-decoration: none; /* Sin subrayado */
+      font-size: 1rem; /* Tamaño del texto del enlace */
+      transition: color 0.3s ease; /* Transición de color suave */
+  }
+  
+  /* Estilo para los enlaces del footer al pasar el mouse */
+  .list-unstyled a:hover {
+      color: #c8ff00; /* Color del texto al pasar el mouse */
+  }
+  
+  /* Estilo para las redes sociales del footer */
+  .list-inline-item {
+      font-size: 1.5rem; /* Tamaño de iconos */
+      margin-right: 15px; /* Espaciado entre iconos */
+  }
+  
+  /* Estilo para el contenido del footer en dispositivos móviles */
+  @media (max-width: 767px) {
+      .col-lg-4 {
+          margin-bottom: 30px; /* Aumenta el espaciado inferior entre columnas en dispositivos móviles */
+      }
+  }
+  
+  
+  
+  
+  /* CSS mejorado */
+  
+  .social-icons {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .social-icons li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+    
+    .social-icons a {
+      text-decoration: none;
+      color: #ffffff; /* Color inicial del ícono */
+      transition: color 0.3s ease-in-out;
+    }
+    
+    .social-icons a:hover {
+      color: #c8ff00; /* Color del ícono al pasar el mouse */
+    }
+    
+    .social-icons i {
+      font-size: 24px; /* Tamaño del ícono */
+    }
+    
+
+
+
+
+
+
